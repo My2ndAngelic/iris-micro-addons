@@ -4,8 +4,11 @@
 
 cd -- "$(dirname "$0")"
 
+#reset
+reset
+
 #Ask for temperature
-echo "What temperature do you want to set?"
+echo "What temperature (in K) do you want to set?"
 read temp
 
 #Ask for brightness
